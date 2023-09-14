@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Jokes</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dad Jokes</h1>
+      <form>
+        <input type="text" name="term" placeholder="Search for jokes" />
+        <select name="limit">
+          <option>5</option>
+          <option>10</option>
+          <option>15</option>
+        </select>
+        <button>Search</button>
+      </form>
+      <div id="errorMessage"></div>
+      <ul id="jokeList"></ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  background-color: beige;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.container h1 {
+  text-decoration: underline;
+  font-size: 50px;
+}
